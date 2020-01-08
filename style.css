@@ -109,9 +109,9 @@ table {
   border: none;
 }
 #sidepanel {
-  margin: auto;
   margin-right: 5%;
   margin-top: 6%;
+  margin-bottom: 10%;
   width: 25%;
   float: left;
   display: block;
@@ -172,5 +172,27 @@ table {
   padding: 10px;
 }
 #othersites {
-  margin-top: 10%;
+  margin: 0;
+  padding: 0;
+}
+#othersites div {
+  margin-left: 10%;
+}
+
+#othersites a {
+  color: #262626;
+}
+
+#othersites a:hover {
+  background-color: #e1e1e1;
+  color: #262626;
+  transition: ease-in-out 0.3s;
+}
+
+#footer {
+  margin: 0%;
+  padding: 2% 5%;
+  margin-top: 3%;
+  color: #bbbbf2;
+  background-color: #424299;
 }
