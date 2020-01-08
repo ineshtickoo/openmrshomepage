@@ -107,7 +107,19 @@ h1 {
 }
 
 #sidepanel {
-  float: right;
+  margin: auto;
+  margin-right: 5%;
+  margin-top: 5%;
+  width: 25%;
+  float: left;
   display: block;
-  width: 40%;
+}
+#sidepanel tbody {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#sidepanel tr {
+  border: 1px solid #000;
+  width: 100%;
 }
